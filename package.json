@@ -1,0 +1,23 @@
+{
+    "name": "Best-Ever-Tour-Company",
+    "version": "1.0.0",
+    "description": "��#\u0000 \u0000B\u0000e\u0000s\u0000t\u0000-\u0000E\u0000v\u0000e\u0000r\u0000-\u0000T\u0000r\u0000a\u0000v\u0000e\u0000l\u0000-\u0000W\u0000e\u0000b\u0000s\u0000i\u0000t\u0000e\u0000\r\u0000 \u0000",
+    "main": "index.js",
+    "scripts": {
+        "compile": "node-sass sass/main.scss css/style.css -w"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Rahat47/Best-Ever-Travel-Website.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Rahat47/Best-Ever-Travel-Website/issues"
+    },
+    "homepage": "https://github.com/Rahat47/Best-Ever-Travel-Website#readme",
+    "devDependencies": {
+        "node-sass": "^5.0.0"
+    }
+}
