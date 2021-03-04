@@ -16,6 +16,15 @@
         z-index: 2000;
         box-shadow: 0 0.625rem 1.875rem $color-black;
         cursor: pointer;
+
+        @include respond(tab-port) {
+            top: 2.5rem;
+            right: 2.5rem;
+        }
+        @include respond(phone) {
+            top: 1.875rem;
+            right: 1.875rem;
+        }
     }
 
     &__background {
@@ -32,7 +41,14 @@
         z-index: 1000;
         transition: transform 800ms cubic-bezier(0.86, 0, 0.07, 1);
 
-        // transform: scale(50);
+        @include respond(tab-port) {
+            top: 2.8125rem;
+            right: 2.8125rem;
+        }
+        @include respond(phone) {
+            top: 2.1875rem;
+            right: 2.1875rem;
+        }
     }
 
     &__nav {

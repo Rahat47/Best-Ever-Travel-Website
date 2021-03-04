@@ -3,9 +3,15 @@
 }
 .u-mb-big {
     margin-bottom: 5rem !important;
+    @include respond(tab-port) {
+        margin-bottom: 3.125rem !important;
+    }
 }
 .u-mb-medium {
     margin-bottom: 3rem !important;
+    @include respond(tab-port) {
+        margin-bottom: 1.875rem !important;
+    }
 }
 
 .u-mb-small {

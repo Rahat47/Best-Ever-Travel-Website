@@ -4,12 +4,20 @@
 .footer {
     background-color: $color-grey-dark-3;
     padding: 6.25rem 0;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: $color-grey-light-1;
+
+    @include respond(tab-port) {
+        padding: 5rem 0;
+    }
 
     &__logo-box {
         text-align: center;
         margin-bottom: 5rem;
+
+        @include respond(tab-port) {
+            margin-bottom: 3.75rem;
+        }
     }
 
     &__logo {
@@ -20,6 +28,10 @@
         border-top: 1px solid $color-grey-dark;
         padding-top: 1.25rem;
         display: inline-block;
+        @include respond(tab-port) {
+            width: 100%;
+            text-align: center;
+        }
     }
 
     &__list {
@@ -59,6 +71,9 @@
         width: 80%;
         text-align: center;
         margin: 0 auto;
+        @include respond(tab-port) {
+            width: 100%;
+        }
     }
 
     &__social {

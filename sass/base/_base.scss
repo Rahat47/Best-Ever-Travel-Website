@@ -11,9 +11,22 @@
 }
 html {
     scroll-behavior: smooth;
+
+    @include respond(tab-land) {
+        font-size: 90%;
+    }
+
+    @include respond(big-desk) {
+        font-size: 150%;
+    }
 }
 body {
     box-sizing: border-box;
+    padding: 1.875rem;
+
+    @include respond(tab-port) {
+        padding: 0;
+    }
 }
 
 main {
